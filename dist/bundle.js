@@ -20,13 +20,64 @@ eval("\n\nfunction sum(...args) {\n    let total;\n    total = args.reduce((acc,
 
 /***/ }),
 
+/***/ "./src/js/2_const.js":
+/*!***************************!*\
+  !*** ./src/js/2_const.js ***!
+  \***************************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://js-challenges/./src/js/2_const.js?");
+
+/***/ }),
+
+/***/ "./src/js/3_let.js":
+/*!*************************!*\
+  !*** ./src/js/3_let.js ***!
+  \*************************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://js-challenges/./src/js/3_let.js?");
+
+/***/ }),
+
+/***/ "./src/js/4_hoisting.js":
+/*!******************************!*\
+  !*** ./src/js/4_hoisting.js ***!
+  \******************************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://js-challenges/./src/js/4_hoisting.js?");
+
+/***/ }),
+
+/***/ "./src/js/5_ternaryOperator.js":
+/*!*************************************!*\
+  !*** ./src/js/5_ternaryOperator.js ***!
+  \*************************************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://js-challenges/./src/js/5_ternaryOperator.js?");
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
+eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n__webpack_require__(/*! ./2_const.js */ \"./src/js/2_const.js\");\n__webpack_require__(/*! ./3_let.js */ \"./src/js/3_let.js\");\n__webpack_require__(/*! ./4_hoisting.js */ \"./src/js/4_hoisting.js\");\n__webpack_require__(/*! ./5_ternaryOperator.js */ \"./src/js/5_ternaryOperator.js\");\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
+
+/***/ }),
+
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+/***/ (() => {
+
+"use strict";
+eval("\n\nconsole.log(`*** |\\ Welcome to js challenges /| ***`);\n\n//# sourceURL=webpack://js-challenges/./src/js/main.js?");
 
 /***/ })
 
