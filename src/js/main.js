@@ -1,3 +1,3 @@
 "use strict";
 
-console.log('it works');
+console.log(`*** |\ Welcome to js challenges /| ***`);
