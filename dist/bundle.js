@@ -26,7 +26,8 @@ eval("\n\nfunction sum(...args) {\n    let total;\n    total = args.reduce((acc,
   \***************************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://js-challenges/./src/js/2_const.js?");
+"use strict";
+eval("\n\nlet arr = [1, 2];\n\n/* can do this because array is a reference type */\narr.push(3);\n\nconsole.log(arr);\n\n/* TypeError - cannot reassign const variable */\narr = [1,2,3,4];\n\nconsole.log(arr)\n\n//# sourceURL=webpack://js-challenges/./src/js/2_const.js?");
 
 /***/ }),
 
