@@ -9,24 +9,24 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/js/1_sum.js":
+/*!*************************!*\
+  !*** ./src/js/1_sum.js ***!
+  \*************************/
+/***/ (() => {
+
+"use strict";
+eval("\n\nfunction sum(...args) {\n    let total;\n    total = args.reduce((acc, elem) => acc + elem);\n    console.log(total);\n}\n\nsum(1,3);\nsum(10, 20, 5);\nsum(2, 5, 80, 1, 10, 12);\n\n//# sourceURL=webpack://js-challenges/./src/js/1_sum.js?");
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
-
-/***/ }),
-
-/***/ "./src/js/main.js":
-/*!************************!*\
-  !*** ./src/js/main.js ***!
-  \************************/
-/***/ (() => {
-
-"use strict";
-eval("\n\nconsole.log('it works');\n\n//# sourceURL=webpack://js-challenges/./src/js/main.js?");
+eval("__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
 
 /***/ })
 
