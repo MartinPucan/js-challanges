@@ -8,4 +8,4 @@ if (b > a) {
     console.log(c);
 }
 
-console.log(c);
+// console.log(c); - ReferenceError, c is defined only in if scope

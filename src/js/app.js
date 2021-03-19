@@ -5,3 +5,4 @@ require('./3_let.js');
 require('./4_hoisting.js');
 require('./5_ternaryOperator.js');
 require('./6_arrowFunction.js');
+require('./7_defaultParameter');

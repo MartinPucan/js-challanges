@@ -1,9 +1,7 @@
 "use script";
 
-function multiple(a, b) {
-    return a * b;
-}
+// single statement in arrow function will be automatically returned
+// we dont need curly braces when we have only one statement
 
-setTimeout(function () {
-    console.log(multiple(5, 10));
-}, 1000);
+const multiple = (a,b) =>  a * b;
+setTimeout(() => console.log(multiple(5, 10)), 1000);

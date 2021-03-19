@@ -48,7 +48,7 @@ eval("\"use script\";\n\nvar i = 10;\n\nfor (let i = 1; i < 5; i++) {\n    // co
 /***/ (() => {
 
 "use strict";
-eval("\n\nvar a = 5, b = 10;\n\nif (b > a) {\n    let c = 2;\n    c = a + b + c;\n    console.log(c);\n}\n\nconsole.log(c);\n\n//# sourceURL=webpack://js-challenges/./src/js/4_hoisting.js?");
+eval("\n\nvar a = 5, b = 10;\n\nif (b > a) {\n    let c = 2;\n    c = a + b + c;\n    console.log(c);\n}\n\n// console.log(c); - ReferenceError, c is defined only in if scope\n\n//# sourceURL=webpack://js-challenges/./src/js/4_hoisting.js?");
 
 /***/ }),
 
