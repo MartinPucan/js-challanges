@@ -69,7 +69,18 @@ eval("\n\nfunction isNumber(value) {\n    return (\n        typeof value === \"n
   \***********************************/
 /***/ (() => {
 
-eval("\"use script\";\n\nfunction multiple(a, b) {\n    return a * b;\n}\n\nsetTimeout(function () {\n    console.log(multiple(5, 10));\n}, 1000);\n\n//# sourceURL=webpack://js-challenges/./src/js/6_arrowFunction.js?");
+eval("\"use script\";\n\n// single statement in arrow function will be automatically returned\n// we dont need curly braces when we have only one statement\n\nconst multiple = (a,b) =>  a * b;\nsetTimeout(() => console.log(multiple(5, 10)), 1000);\n\n//# sourceURL=webpack://js-challenges/./src/js/6_arrowFunction.js?");
+
+/***/ }),
+
+/***/ "./src/js/7_defaultParameter.js":
+/*!**************************************!*\
+  !*** ./src/js/7_defaultParameter.js ***!
+  \**************************************/
+/***/ (() => {
+
+"use strict";
+eval("\n\nfunction multiplyBy(a, multi) {\n    multi = multi ?? 2;\n    console.log(a * multi)\n}\n\n\nmultiplyBy(2, 0);\nmultiplyBy(2, undefined);\nmultiplyBy(2, 10);\n\n//# sourceURL=webpack://js-challenges/./src/js/7_defaultParameter.js?");
 
 /***/ }),
 
@@ -79,7 +90,7 @@ eval("\"use script\";\n\nfunction multiple(a, b) {\n    return a * b;\n}\n\nsetT
   \***********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n__webpack_require__(/*! ./2_const.js */ \"./src/js/2_const.js\");\n__webpack_require__(/*! ./3_let.js */ \"./src/js/3_let.js\");\n__webpack_require__(/*! ./4_hoisting.js */ \"./src/js/4_hoisting.js\");\n__webpack_require__(/*! ./5_ternaryOperator.js */ \"./src/js/5_ternaryOperator.js\");\n__webpack_require__(/*! ./6_arrowFunction.js */ \"./src/js/6_arrowFunction.js\");\n\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
+eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n__webpack_require__(/*! ./2_const.js */ \"./src/js/2_const.js\");\n__webpack_require__(/*! ./3_let.js */ \"./src/js/3_let.js\");\n__webpack_require__(/*! ./4_hoisting.js */ \"./src/js/4_hoisting.js\");\n__webpack_require__(/*! ./5_ternaryOperator.js */ \"./src/js/5_ternaryOperator.js\");\n__webpack_require__(/*! ./6_arrowFunction.js */ \"./src/js/6_arrowFunction.js\");\n__webpack_require__(/*! ./7_defaultParameter */ \"./src/js/7_defaultParameter.js\");\n\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
 
 /***/ }),
 
