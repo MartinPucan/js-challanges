@@ -13,4 +13,4 @@ function square(a) {
 }
 
 square(10)
-square(NaN)
+square()
