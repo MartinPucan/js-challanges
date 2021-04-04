@@ -20,6 +20,17 @@ eval("\n\nlet first, second, third;\n\nlet array = [1,2,3,4,5,6,7];\n\n[first, s
 
 /***/ }),
 
+/***/ "./src/js/11_spreadOperator.js":
+/*!*************************************!*\
+  !*** ./src/js/11_spreadOperator.js ***!
+  \*************************************/
+/***/ (() => {
+
+"use strict";
+eval("\n\nvar a, b, c, d;\n\na = [1, 2];\n\nb = [4, 5];\nc = [8, 9, 10];\nd = 11;\n\n\nlet array = [0, ...a, 3, ...b, 6, 7, ...c, d];\n\nconsole.log(array)\n\n\n//# sourceURL=webpack://js-challenges/./src/js/11_spreadOperator.js?");
+
+/***/ }),
+
 /***/ "./src/js/1_sum.js":
 /*!*************************!*\
   !*** ./src/js/1_sum.js ***!
@@ -101,7 +112,7 @@ eval("\n\nfunction multiplyBy(a, multi) {\n    multi = multi ?? 2;\n    console.
   \*********************************************/
 /***/ (() => {
 
-eval("\"use script\";\n\nfunction missingArg() {\n    throw new Error(\"missing arg in square function\");\n}\n\nfunction square(a) {\n    return(\n        typeof a === \"number\"\n        ? console.log(a*a)\n        : missingArg()\n    )\n}\n\nsquare(10)\nsquare()\n\n\n//# sourceURL=webpack://js-challenges/./src/js/8_presenceOfFunctionParam.js?");
+eval("\"use script\";\n\nfunction missingArg() {\n    throw new Error(\"missing arg in square function\");\n}\n\nfunction square(a) {\n    return(\n        typeof a === \"number\"\n        ? console.log(a*a)\n        : missingArg()\n    )\n}\n\nsquare(10)\n// square()  | throw error, cause this function has no arg\n\n\n//# sourceURL=webpack://js-challenges/./src/js/8_presenceOfFunctionParam.js?");
 
 /***/ }),
 
@@ -121,7 +132,7 @@ eval("\"use script\";\n\nconst obj = {\n    x: 5,\n    y: 20,\n    z: 3\n}\n\nfu
   \***********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n__webpack_require__(/*! ./2_const.js */ \"./src/js/2_const.js\");\n__webpack_require__(/*! ./3_let.js */ \"./src/js/3_let.js\");\n__webpack_require__(/*! ./4_hoisting.js */ \"./src/js/4_hoisting.js\");\n__webpack_require__(/*! ./5_ternaryOperator.js */ \"./src/js/5_ternaryOperator.js\");\n__webpack_require__(/*! ./6_arrowFunction.js */ \"./src/js/6_arrowFunction.js\");\n__webpack_require__(/*! ./7_defaultParameter */ \"./src/js/7_defaultParameter.js\");\n__webpack_require__(/*! ./8_presenceOfFunctionParam */ \"./src/js/8_presenceOfFunctionParam.js\");\n__webpack_require__(/*! ./9_objectDestructuring */ \"./src/js/9_objectDestructuring.js\");\n__webpack_require__(/*! ./10_destructuringAndRestOperator */ \"./src/js/10_destructuringAndRestOperator.js\");\n\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
+eval("__webpack_require__(/*! ./main.js */ \"./src/js/main.js\");\n__webpack_require__(/*! ./1_sum.js */ \"./src/js/1_sum.js\");\n__webpack_require__(/*! ./2_const.js */ \"./src/js/2_const.js\");\n__webpack_require__(/*! ./3_let.js */ \"./src/js/3_let.js\");\n__webpack_require__(/*! ./4_hoisting.js */ \"./src/js/4_hoisting.js\");\n__webpack_require__(/*! ./5_ternaryOperator.js */ \"./src/js/5_ternaryOperator.js\");\n__webpack_require__(/*! ./6_arrowFunction.js */ \"./src/js/6_arrowFunction.js\");\n__webpack_require__(/*! ./7_defaultParameter */ \"./src/js/7_defaultParameter.js\");\n__webpack_require__(/*! ./8_presenceOfFunctionParam */ \"./src/js/8_presenceOfFunctionParam.js\");\n__webpack_require__(/*! ./9_objectDestructuring */ \"./src/js/9_objectDestructuring.js\");\n__webpack_require__(/*! ./10_destructuringAndRestOperator */ \"./src/js/10_destructuringAndRestOperator.js\");\n__webpack_require__(/*! ./11_spreadOperator */ \"./src/js/11_spreadOperator.js\");\n\n\n//# sourceURL=webpack://js-challenges/./src/js/app.js?");
 
 /***/ }),
 

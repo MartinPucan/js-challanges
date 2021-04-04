@@ -13,4 +13,4 @@ function square(a) {
 }
 
 square(10)
-square()
+// square()  | throw error, cause this function has no arg

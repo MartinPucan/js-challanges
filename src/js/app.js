@@ -9,3 +9,4 @@ require('./7_defaultParameter');
 require('./8_presenceOfFunctionParam');
 require('./9_objectDestructuring');
 require('./10_destructuringAndRestOperator');
+require('./11_spreadOperator');
