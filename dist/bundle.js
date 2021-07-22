@@ -27,7 +27,7 @@ eval("\n\nlet first, second, third;\n\nlet array = [1,2,3,4,5,6,7];\n\n[first, s
 /***/ (() => {
 
 "use strict";
-eval("\n\nvar a, b, c, d;\n\na = [1, 2];\n\nb = [4, 5];\nc = [8, 9, 10];\nd = 11;\n\n\nlet array = [0, ...a, 3, ...b, 6, 7, ...c, d];\n\nconsole.log(array)\n\n\n//# sourceURL=webpack://js-challenges/./src/js/11_spreadOperator.js?");
+eval("\n\nlet a = [1, 2];\nlet b = [4, 5];\nlet c = [8, 9, 10];\nlet d = 11;\n\nlet array = [0, ...a, 3, ...b, 6, 7, ...c, d];\nconsole.log(array)\n\nlet newArray = a.concat([0], [3], b, [6,7], c, [d]);\nconsole.log(newArray)\n\n\n//# sourceURL=webpack://js-challenges/./src/js/11_spreadOperator.js?");
 
 /***/ }),
 
@@ -38,7 +38,7 @@ eval("\n\nvar a, b, c, d;\n\na = [1, 2];\n\nb = [4, 5];\nc = [8, 9, 10];\nd = 11
 /***/ (() => {
 
 "use strict";
-eval("\n\nfunction sum(...args) {\n    let total;\n    total = args.reduce((acc, elem) => acc + elem);\n    console.log(total);\n}\n\nsum(1,3);\nsum(10, 20, 5);\nsum(2, 5, 80, 1, 10, 12);\n\n//# sourceURL=webpack://js-challenges/./src/js/1_sum.js?");
+eval("\n\nfunction sum(...args) {\n    let total;\n    total = args.reduce((acc, elem) => acc + elem);\n    console.log(total);\n}\n\nsum(1, 3);\nsum(10, 20, 5);\nsum(2, 5, 80, 1, 10, 12);\n\n//# sourceURL=webpack://js-challenges/./src/js/1_sum.js?");
 
 /***/ }),
 
